@@ -1,0 +1,86 @@
+{
+    "aboutMe": {
+      "title": "About Me",
+      "description1": "I am a web develope passionate about learning and applying innovative technologies to create practical and quality solutions.My approach is based on solving problems efficiently and staying up to date with modern tools and methodologies to optimize processes and results.",
+      "description2": "I am characterized by the commitment,responsibility and dedication with which I face each challenge, always seeking to collaborate and learn with my team.",
+      "imageAlt": "Illustration of a woman with glasses"
+    },
+
+    
+    "contact": {
+      "title": "Contact",
+      "text": "Leave me a message and I will  get back to you as soon as possible.",
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send"
+     },
+        
+    "education": {
+      "title": "Education",
+      "academloTitle": "Full Stack Development and Computer Science",
+      "academloStatus": "Graduated in February 2025",
+      "udemyTitle": "Amazon Web Services",
+      "udemyStatus": "Ongoing"
+    },
+
+    "footer": {
+      "copyright": "Copyright © | Coded with",
+      "name": "Estefania Morales"
+  
+    },
+
+    "home": {
+      "helllo": "Hello! I am",
+       "name": "Estefania Morales",
+       "downloadCV": "Download Cv",
+       "contact": "Contact"
+    },
+
+     "skills":{
+       "title": "Skills"
+     },
+
+     "nav": {
+       "home": "Home",
+        "about": "About Me",
+        "skills": "Skills",
+        "education": "Projects",
+        "contact": "Contact"
+
+     },
+
+        "projects": {
+          "title": "Projects",
+          "list": [
+            {
+              "id": 1,
+              "img": "/imagenes/finca.png",
+              "alt": "Project: Restaurant Website",
+              "title": "Website Development for Restaurants",
+              "description": "I designed, developed, and implemented the website for Finca del Mar restaurant, enhancing its digital presence and attracting more customers.",
+              "demoLink": "https://fincadelmar.netlify.app",
+              "repoLink": "https://github.com/EstefaniaMorales95/finca-del-mar"
+            },
+            {
+              "id": 2,
+              "img": "/imagenes/users.png",
+              "alt": "Project: User CRUD",
+              "title": "User Management System",
+              "description": "This is an application that enables efficient user management through CRUD operations with an intuitive and secure interface.",
+              "demoLink": "https://users-crudemr.netlify.app/",
+              "repoLink": "https://github.com/EstefaniaMorales95/Users-Crud"
+            },
+            {
+              "id": 3,
+              "img": "/imagenes/weather.png",
+              "alt": "Project: Weather App",
+              "title": "Your Weather in Real Time",
+              "description": "A modern and user-friendly application that provides real-time weather information.",
+              "demoLink": "https://weather-appem.netlify.app/",
+              "repoLink": "https://github.com/EstefaniaMorales95/weather"
+            }
+          ]
+        }           
+  }

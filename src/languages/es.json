@@ -1,0 +1,86 @@
+{
+    "aboutMe": {
+      "title": "Sobre mí",
+      "description1": "Soy una desarrolladora web apasionada por aprender y aplicar tecnologías innovadoras para crear soluciones prácticas y de calidad. Mi enfoque se basa resolver problemas de manera eficiente y en mantenerme actualizada con herramientas y metodologías modernas para optimizar procesos y resultados.",
+      "description2":  "Me caracteriza el compromiso, la responsabilidad y la dedicación con los que enfrento cada desafío, siempre buscando colaborar y aprender junto a mi equipo.",
+      "imageAlt": "Ilustración mujer con lentes"
+    },
+
+     "contact": {
+       "title": "Contacto",
+       "text": "Déjame un mensaje y te responderé lo antes posible.",
+       "name": "Nombre",
+       "email": "Correo electrónico",
+       "subject": "Asunto",
+       "message": "Mensaje",
+       "send": "Enviar"
+        },
+        
+    "education": {
+        "title": "Formación",
+        "academloTitle": "Desarrollo Full Stack y Ciencias de la Computación",
+        "academloStatus": "Graduada en Febrero 2025",
+        "udemyTitle": "Amazon Web Services",
+        "udemyStatus": "En curso"
+     },
+
+     "footer": {
+        "copyright": "Copyright © | Desarrollado por",
+        "name": "Estefania Morales"
+      
+     },
+
+     "home": {
+        "hello": " Hola! Soy",
+        "name": "Estefania Morales",
+        "downloadCV": "Descargar CV",
+        "contact": "Contacto"
+     },
+
+     "skills":{
+        "title": "Habilidades"
+     },
+
+     "nav": {
+        "home": "Home",
+        "about": "Sobre mi",
+        "skills": "Habilidades",
+        "education": "Formación",
+        "projeects": "Proyectos",
+        "contact": "Contacto"
+     },
+     
+     "projects": {
+        "title": "Proyectos",
+        "list": [
+            {
+              "id": 1,
+              "img": "/imagenes/finca.png",
+              "alt": "Proyecto: Página web",
+              "title": "Desarrollo de Páginas Web para Restaurantes",
+              "description": "Diseñé, desarrollé e implementé la página web del restaurante Finca del Mar, mejorando su presencia digital y atrayendo a más clientes.",
+              "demoLink": "https://fincadelmar.netlify.app",
+              "repoLink": "https://github.com/EstefaniaMorales95/finca-del-mar"
+            },
+            {
+              "id": 2,
+              "img": "/imagenes/users.png",
+              "alt": "Proyecto: Crud usuario",
+              "title": "Gestión de Usuarios",
+              "description": "Es una aplicación que permite la gestión eficiente de usuarios a través de operaciones CRUD con una interfaz intuitiva y segura.",
+              "demoLink": "https://users-crudemr.netlify.app/",
+              "repoLink": "https://github.com/EstefaniaMorales95/Users-Crud"
+            },
+            {
+              "id": 3,
+              "img": "/imagenes/weather.png",
+              "alt": "Proyecto: Aplicación del clima",
+              "title": "Tu Clima en Tiempo Real",
+              "description": "Es una aplicación moderna y fácil de usar que te brinda información meteorológica en tiempo real.",
+              "demoLink": "https://weather-appem.netlify.app/",
+              "repoLink": "https://github.com/EstefaniaMorales95/weather"
+            }
+          ]
+        
+      }      
+  }

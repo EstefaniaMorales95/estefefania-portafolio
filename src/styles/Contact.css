@@ -1,0 +1,149 @@
+.contacto {
+	padding: 80px 10%;
+	background: #000000;
+	color: #fff;
+	text-align: center;
+}
+
+.contacto h1 {
+	font-size: 60px;
+	font-weight: 700;
+	background: linear-gradient(90deg, #9d8189, #6d4c54, #d5bdaf);
+	background-size: 400% 400%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: fadeIn 1.2s ease-out, animateGradient 6s infinite linear;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	position: relative;
+}
+.contacto h1::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: -5px;
+	width: 100%;
+	height: 100%;
+	filter: blur(10px);
+	transform: translateY(-50%);
+}
+.contacto h1:hover {
+	box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+	.contacto h1 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+}
+
+.container__box--contacto {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container__contacto {
+	max-width: 600px;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.1);
+	padding: 20px;
+	border-radius: 10px;
+	backdrop-filter: blur(10px);
+}
+
+.container__text--contacto p {
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+}
+
+.form__contact {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.form__contact input,
+.form__contact textarea {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1rem;
+	background: #be9da7;
+	color: #fff;
+}
+
+.form__contact textarea {
+	height: 120px;
+	resize: none;
+}
+
+.btn__form--contacto button {
+	width: 50%;
+	padding: 10px;
+	background: #9d8189;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.btn__form--contacto button:hover {
+	background: #6d4c54;
+}
+
+footer {
+	background: #000000;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.container__footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container__redes-footer {
+	display: flex;
+	gap: 15px;
+	margin-bottom: 10px;
+}
+
+.container__redes-footer a img {
+	width: 40px;
+	height: 40px;
+	transition: transform 0.3s ease;
+}
+
+.container__redes-footer a img:hover {
+	transform: scale(1.1);
+}
+
+.container__text--footer span {
+	font-size: 1rem;
+	display: block;
+	margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+	.contacto {
+		padding: 60px 5%;
+	}
+	.contacto h1 {
+		font-size: 2rem;
+	}
+	.container__contacto {
+		width: 100%;
+	}
+	.container__redes-footer {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}

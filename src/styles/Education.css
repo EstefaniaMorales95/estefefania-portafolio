@@ -1,0 +1,120 @@
+.formacion {
+	padding: 80px 10%;
+	background: #000000;
+	color: #fff;
+	text-align: center;
+}
+
+.formacion h1 {
+	font-size: 60px;
+	font-weight: 700;
+	background: linear-gradient(90deg, #9d8189, #6d4c54, #d5bdaf);
+	background-size: 400% 400%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: fadeIn 1.2s ease-out, animateGradient 6s infinite linear;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	position: relative;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+		transform: scale(0.8);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+@keyframes animateGradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.formacion h1::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: -5px;
+	width: 100%;
+	height: 100%;
+	filter: blur(10px);
+	transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+	.formacion h1 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+}
+
+.cards__container--formacion {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	align-items: stretch;
+}
+
+.cards__formacion {
+	backdrop-filter: blur(10px);
+	padding: 20px;
+	width: 280px;
+	border-radius: 15px;
+	text-align: center;
+	overflow: hidden;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 300px;
+}
+
+.logo__formacion {
+	width: 100px;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+.container__texto--formacion {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-grow: 1;
+}
+
+.container__texto--formacion p {
+	font-size: 1.1rem;
+	font-weight: 500;
+	margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+	.formacion {
+		padding: 60px 5%;
+	}
+	.formacion h1 {
+		font-size: 2rem;
+	}
+	.cards__container--formacion {
+		flex-direction: column;
+		align-items: center;
+	}
+	.cards__formacion {
+		width: 90%;
+	}
+}

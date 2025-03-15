@@ -1,0 +1,158 @@
+.home {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 5rem 10%;
+	color: #ffffff;
+	overflow: hidden;
+	min-height: 100vh;
+}
+
+.meteors__container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: -1;
+}
+
+.meteor {
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	background-color: rgb(116, 20, 76);
+	border-radius: 50%;
+	opacity: 0.8;
+	transform: rotate(var(--angle));
+	animation: meteor-fall linear infinite;
+}
+
+@keyframes meteor-fall {
+	0% {
+		transform: translateY(0) rotate(var(--angle));
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(100vh) rotate(var(--angle));
+		opacity: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.home {
+		padding: 5rem 5%;
+	}
+}
+.home.scrolled {
+	background: rgba(20, 20, 20, 0.8);
+}
+
+.container__image--home {
+	width: 100%;
+	max-width: 400px;
+	margin-bottom: 20px;
+}
+
+.image__home {
+	width: 100%;
+	border-radius: 10px;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	opacity: 1;
+}
+
+.home__text--1 {
+	font-size: 1.8rem;
+}
+
+.home__text--2 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #9d8189;
+}
+
+.home__text--3 {
+	font-size: 2rem;
+	margin-top: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 2px solid #ffffff;
+	display: inline-block;
+	padding-right: 5px;
+	animation: blink 0.8s infinite;
+	min-height: 2.5rem;
+}
+@media (max-width: 768px) {
+	.home__text--3 {
+		font-size: 1.5rem;
+		min-height: 2rem;
+		padding-right: 3px;
+	}
+}
+@keyframes blink {
+	50% {
+		border-color: transparent;
+	}
+}
+
+.container__button {
+	margin-top: 20px;
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+}
+
+.cv__button,
+.contact__button {
+	background-color: #9d8189;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	font-size: 1.5rem;
+	cursor: pointer;
+	transition: background 0.3s ease;
+	border-radius: 5px;
+	min-width: 180px;
+}
+
+.cv__button:hover,
+.contact__button:hover {
+	background-color: #745d63;
+}
+
+.links {
+	margin-top: 20px;
+	display: flex;
+	gap: 15px;
+}
+
+.links img {
+	width: 40px;
+	transition: transform 0.3s ease;
+}
+
+.links img:hover {
+	transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+	.home {
+		padding: 5rem 5%;
+	}
+
+	.container__button {
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.cv__button,
+	.contact__button {
+		width: 70%;
+		min-width: 140px;
+	}
+}

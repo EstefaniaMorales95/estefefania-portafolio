@@ -1,0 +1,45 @@
+.habilidades {
+	text-align: center;
+	padding: 5rem 10%;
+}
+.habilidades__titulo {
+	font-size: 60px;
+	font-weight: 700;
+	background: linear-gradient(90deg, #9d8189, #6d4c54, #d5bdaf);
+	background-size: 400% 400%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: fadeIn 1.2s ease-out, animateGradient 6s infinite linear;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	position: relative;
+}
+
+@media (max-width: 768px) {
+	.habilidades__titulo {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+}
+.cards__container--habilidades {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+	gap: 20px;
+	justify-content: center;
+}
+
+.cards--habilidades {
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 10px;
+	padding: 15px;
+	transition: transform 0.3s ease-in-out;
+}
+
+.cards--habilidades:hover {
+	transform: scale(1.1);
+}
+
+.cards--habilidades img {
+	width: 50px;
+	margin-bottom: 10px;
+}

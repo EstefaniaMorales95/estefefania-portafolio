@@ -1,0 +1,40 @@
+.carousel__container {
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0;
+	position: relative;
+}
+
+.carousel__track {
+	display: flex;
+	animation: scroll 10s linear infinite;
+}
+
+.carousel__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-width: 120px;
+	margin: 0 15px;
+	text-align: center;
+}
+
+.carousel__item img {
+	width: 60px;
+	height: 60px;
+	object-fit: contain;
+}
+
+@keyframes scroll {
+	from {
+		transform: translateX(0%);
+	}
+	to {
+		transform: translateX(-50%);
+	}
+}

@@ -1,0 +1,15 @@
+.flags {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.flags__item img {
+	width: 25px;
+	cursor: pointer;
+	transition: transform 0.3s;
+}
+
+.flags__item img:hover {
+	transform: scale(1.1);
+}
