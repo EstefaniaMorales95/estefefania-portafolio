@@ -60,6 +60,8 @@
 		background-color: rgba(4, 4, 4, 0.95);
 		text-align: center;
 		padding: 20px 0;
+		gap: 10px;
+		align-items: center;
 	}
 
 	.nav__menu.open {
@@ -67,7 +69,10 @@
 	}
 
 	.nav__menu a {
-		padding: 15px;
+		display: block;
+		width: 100%;
+		padding: 15px 0;
 		font-size: 20px;
+		text-align: center;
 	}
 }

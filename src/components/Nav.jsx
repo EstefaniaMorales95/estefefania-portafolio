@@ -34,21 +34,23 @@ function Nav() {
 	return (
 		<header className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
 			<nav className="nav__container">
-				<MenuButton
-					onClick={() => setMenuOpen(!menuOpen)}
-					isActive={menuOpen}
-				/>
+				<div className="menu-button-container">
+					<MenuButton
+						onClick={() => setMenuOpen(!menuOpen)}
+						isActive={menuOpen}
+					/>
+				</div>
 
 				<div className={`nav__menu ${menuOpen ? 'open' : ''}`}>
-					{navLinks.map((link, index) => (
+					{navLinks.map((link) => (
 						<NavItem
-							key={index}
+							key={link.href}
 							href={link.href}
 							label={link.label}
 							onClick={handleNavClick}
 						/>
 					))}
-					<Language setLanguage={setLanguage} />
+					<Language />
 				</div>
 			</nav>
 		</header>
