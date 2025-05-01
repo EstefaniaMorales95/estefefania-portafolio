@@ -55,21 +55,21 @@
         "list": [
             {
               "id": 1,
-              "img": "/imagenes/finca.png",
-              "alt": "Proyecto: Página web",
-              "title": "Desarrollo de Páginas Web para Restaurantes",
-              "description": "Diseñé, desarrollé e implementé la página web del restaurante Finca del Mar, mejorando su presencia digital y atrayendo a más clientes.",
-              "demoLink": "https://fincadelmar.netlify.app",
-              "repoLink": "https://github.com/EstefaniaMorales95/finca-del-mar"
+              "img": "/imagenes/calorie.jpeg",
+              "alt": "Control de Calorias",
+              "title": "Control de Calorias",
+              "description": "Diseñe esta aplicación intuitiva y fácil de usar  para ayudarte a llevar un registro de tus hábitos alimenticios y alcanzar tus metas de salud y bienestar.",
+              "demoLink": "https://calorietrackeremr.netlify.app",
+              "repoLink": "https://github.com/EstefaniaMorales95/calorie-tracker"
             },
             {
               "id": 2,
-              "img": "/imagenes/users.png",
-              "alt": "Proyecto: Crud usuario",
-              "title": "Gestión de Usuarios",
-              "description": "Es una aplicación que permite la gestión eficiente de usuarios a través de operaciones CRUD con una interfaz intuitiva y segura.",
-              "demoLink": "https://users-crudemr.netlify.app/",
-              "repoLink": "https://github.com/EstefaniaMorales95/Users-Crud"
+              "img": "/imagenes/gastos.jpeg",
+              "alt": "Planificador de Gastos",
+              "title": "Planificador de Gastos",
+              "description": "Diseñe  una aplicación web moderna y dinámica que te ayuda a gestionar tu presupuesto de forma visual, sencilla y eficiente.",
+              "demoLink": "https://controldegastosemr.netlify.app",
+              "repoLink": "https://github.com/EstefaniaMorales95/control-gastos"
             },
             {
               "id": 3,

@@ -56,21 +56,21 @@
           "list": [
             {
               "id": 1,
-              "img": "/imagenes/finca.png",
-              "alt": "Project: Restaurant Website",
-              "title": "Website Development for Restaurants",
-              "description": "I designed, developed, and implemented the website for Finca del Mar restaurant, enhancing its digital presence and attracting more customers.",
-              "demoLink": "https://fincadelmar.netlify.app",
-              "repoLink": "https://github.com/EstefaniaMorales95/finca-del-mar"
+              "img": "/imagenes/calorie.jpeg",
+              "alt": "Project:Calorie Controle",
+              "title": "Website Calorie Controls",
+              "description": "I designed this intuitive and easy-to-use app to help you track your eating habits and achieve your health and wellness goals.",
+              "demoLink": "https://calorietrackeremr.netlify.app",
+              "repoLink": "https://github.com/EstefaniaMorales95/calorie-tracker"
             },
             {
               "id": 2,
-              "img": "/imagenes/users.png",
-              "alt": "Project: User CRUD",
-              "title": "User Management System",
-              "description": "This is an application that enables efficient user management through CRUD operations with an intuitive and secure interface.",
-              "demoLink": "https://users-crudemr.netlify.app/",
-              "repoLink": "https://github.com/EstefaniaMorales95/Users-Crud"
+              "img": "/imagenes/gastos.jpeg",
+              "alt": "Expense Planner",
+              "title": "Expense Planner",
+              "description": "Design a modern, dynamic web application that helps you manage your budget visually, easily, and efficiently.",
+              "demoLink": "https://controldegastosemr.netlify.app",
+              "repoLink": "https://github.com/EstefaniaMorales95/control-gastos"
             },
             {
               "id": 3,
